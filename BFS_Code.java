@@ -19,6 +19,7 @@ public class BFS_Code{
 			for(j=0;j<n;j++){
 				if(visited[j]==0 && adj[i][j]==1){
 					q.add(j);
+					visited[j]=1;
 				}
 			}
 		}
